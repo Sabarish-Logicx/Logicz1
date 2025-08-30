@@ -1,12 +1,11 @@
-import java.util.Scanner;
 public class FibonacciSeries{
     public static void main(String[] args){
         //Input from user
-        Scanner sc =new Scanner(System.in);
-        System.out.println("Enter a Number : ");
-        int n = sc.nextInt();
+        /*Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a Number : ");
+        int n = sc.nextInt();*/
 
-        //int n=13;
+        int n=13;
 
         int first=0,second=1;
         System.out.println("Fibonacci Series up to "+n+" terms");
@@ -16,6 +15,7 @@ public class FibonacciSeries{
             first=second;
             second=next;
         }
-        sc.close();
+        //input from user
+        //sc.close();
     }
 }
