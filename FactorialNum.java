@@ -1,3 +1,4 @@
+
 public class FactorialNum{
     public static void main(String[] args){
         int num=5;
@@ -5,6 +6,6 @@ public class FactorialNum{
         for (int i=1;i<=num;i++){
             fact=fact*i;
         }
-        System.out.print(num);
+        System.out.println("Factorial of "+num+" is: "+fact);
     }
 }
