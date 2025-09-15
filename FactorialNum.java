@@ -7,5 +7,5 @@ public class FactorialNum{
             fact=fact*i;
         }
         System.out.println("Factorial of "+num+" is: "+fact);    //120
-    }
+   }
 }
