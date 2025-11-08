@@ -1,7 +1,7 @@
 Class Hello{
     public static void main(String [] args){
 <<<<<<< HEAD
-        System.out.print("HELLO SABARISH !");
+        System.out.print("HELLO !");
 =======
 
         System.out.print("HELLO !");
