@@ -10,6 +10,6 @@ class Arrays{
                 break;
             }
         }
-        System.out.println("Missing No :"+Missing);
+        System.out.println("Missing No :"+Missing);     //Missing No :4
     }
 }
