@@ -27,4 +27,4 @@ for(int i=0;i<a.length;i++){
     actualSum+=a[i];
 }
 int missing=expectedSum-actualSum;
-System.out.println("Missing No:"+missing);   
+System.out.println("Missing No:"+missing);       //Missing No :4
