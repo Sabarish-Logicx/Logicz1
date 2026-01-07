@@ -12,4 +12,19 @@ class Arrays{
         }
         System.out.println("Missing No :"+Missing);     //Missing No :4
     }
+} 
+
+//Without sorting And Extra space
+
+int[] a={1,3,2,5};
+int n=5;
+
+int expectedSum=n*(n+1)/2;
+
+int actualSum=0;
+
+for(int i=0;i<a.length;i++){
+    actualSum+=a[i];
 }
+int missing=expectedSum-actualSum;
+System.out.println("Missing No:"+missing);   
