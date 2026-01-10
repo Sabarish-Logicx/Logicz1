@@ -28,3 +28,5 @@ for(int i=0;i<a.length;i++){
 }
 int missing=expectedSum-actualSum;
 System.out.println("Missing No:"+missing);       //Missing No :4
+
+//Using XOR Method
