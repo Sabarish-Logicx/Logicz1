@@ -30,3 +30,19 @@ int missing=expectedSum-actualSum;
 System.out.println("Missing No:"+missing);       //Missing No :4
 
 //Using XOR Method
+
+import java.util.Arrays;
+class array{
+    public static void main(String [] args){
+        int[] arr={2,5,3,1};
+        int n =5;
+        int xor=0;
+        for(int i=0;i<=n;i++){
+            xor^=i;
+        }
+        for(int num:arr){
+            xor^=num;
+        }
+        System.out.print("Missing No :"+xor);     //Missing No : 4S
+    }
+}
