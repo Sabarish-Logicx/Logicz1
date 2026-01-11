@@ -43,6 +43,6 @@ class array{
         for(int num:arr){
             xor^=num;
         }
-        System.out.print("Missing No :"+xor);     //Missing No : 4S
+        System.out.print("Missing No :"+xor);     //Missing No : 4
     }
 }
