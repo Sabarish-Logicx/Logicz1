@@ -19,10 +19,12 @@ class Arrays{
 
 int[] a={1,3,2,5};
 int n=5;
+//int n=a.length+1;        (if array with '0'(-1 no need))
 
 int expectedSum=n*(n+1)/2;
 
 int actualSum=0;
+//int actSum=Arrays.stream(a).sum();    (no need loop)
 
 for(int i=0;i<a.length;i++){
     actualSum+=a[i];
