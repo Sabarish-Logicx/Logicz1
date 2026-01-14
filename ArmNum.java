@@ -6,11 +6,11 @@ class ArmNum{
         int num=sc.nextInt();
 
         int original=num;
-        //int sum=0;
+        int sum=0;
 
         //count digit
         int digits=String.valueOf(num).length();
-        int sum=0;
+        
 
         while(num>0){
             int digit=num%10;
@@ -23,8 +23,6 @@ class ArmNum{
         }else{
             System.out.println("Not Armstrong Number");
         }
-
-
         }
 
 }
