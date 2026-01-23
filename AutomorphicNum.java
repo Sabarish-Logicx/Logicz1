@@ -27,3 +27,25 @@ public class AutomorphicNumber {
             System.out.println(n+" is Not an Automorphic Number");
     }
 }
+
+//In-build Method
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        if (isAutomorphic(num)) {
+            System.out.println(num + " is an automorphic number.");
+        } else {
+            System.out.println(num + " is not an automorphic number.");
+        }
+    
+
+    public static boolean isAutomorphic(int num) {
+        int square = num * num;
+        String numStr = Integer.toString(num);
+        String squareStr = Integer.toString(square);
+    }
+
+        return squareStr.endsWith(numStr);
