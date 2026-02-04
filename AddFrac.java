@@ -7,7 +7,7 @@ class AddFrac{
         int numerator=num1*den2+num2*den1;
         int denominator=den1*den2;
 
-        System.out.println("sum = "+numerator+"/"+denominator);
+        System.out.println("sum = "+numerator+"/"+denominator);     //sum = 10/8
     }
     }
 
