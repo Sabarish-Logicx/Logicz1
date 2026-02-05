@@ -9,7 +9,7 @@ class AddFrac{
 
         int gcd=findGCD(numerator,denominator);
 
-        System.out.println("sum = "+(numerator/gcd)+"/"+(denominator/gcd));     //sum = 10/8
+        System.out.println("sum = "+(numerator/gcd)+"/"+(denominator/gcd));     //sum = 5/4
     }
     static ont findGCD(int a ,int b){
         while(b!=0){
