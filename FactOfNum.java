@@ -4,7 +4,9 @@ class FactOfNum{
 
         System.out.println("Factorial Of "+num+" are:");
         for(int i=1;i<=num;i++){
-            System.out.println(i);
+            if(num %i==0){
+            System.out.println(i);               // 1 2 3 6
+            }                    
         }
     }
 }
