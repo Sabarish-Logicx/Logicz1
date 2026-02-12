@@ -8,15 +8,14 @@ class FactOfNum{
 
         int sum=0;
        
-
-       // System.out.println("Factorial Of "+num+" are : ");
+        System.out.println("Factorial Of "+num+" are : ");
         for(int i=1;i<=num;i++){
             if(num %i==0){
-            System.out.println(i);
-            sum =sum+i;               // 1 2 3 6
+            System.out.println(i);         // 1 2 3 6
+            sum =sum+i;               
             }                    
         }
-    System.out.println("Addition of Fact are : "+sum);
+    System.out.println("Addition of Fact are : "+sum);      //12
     }
 
 }
