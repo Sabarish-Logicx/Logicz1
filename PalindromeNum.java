@@ -11,9 +11,9 @@ while(num>0){
 }
 
 if(org==rev){
-    System.out.println("Yes");
+    System.out.println("The "+org+" is Palindrome");
 }else{
-    System.out.println("No");
+    System.out.println("The "+org+" is not Palindrome");
 }
 }
 }
