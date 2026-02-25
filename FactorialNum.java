@@ -1,7 +1,13 @@
 
+import java.util.Scanner;
 public class FactorialNum{
     public static void main(String[] args){
-        int num=5;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter a Num : ");
+        int num=sc.nextInt();
+
+        //int num=5;
+
         long fact=1;
         for (int i=1;i<=num;i++){
             fact=fact*i;
