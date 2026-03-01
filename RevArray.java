@@ -14,7 +14,7 @@ public static void main(String[] args){
         end--;
     }
     for(int num:arr){
-        System.out.print(num+" ");
+        System.out.print(num+" ");         //6 5 4 3 2 1
     }
 }
 }
