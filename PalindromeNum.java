@@ -1,11 +1,13 @@
 import java.util.Scanner;
 class PalindromeNum{
 public static void main(String[]args){
+
 Scanner sc=new Scanner(System.in);
 System.out.print("Enter a num : ");
 int num=sc.nextInt();
 
 //int num=121;
+
 int org=num;
 int rev=0;
 
