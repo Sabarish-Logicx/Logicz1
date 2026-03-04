@@ -14,6 +14,9 @@ public static void main(String[] args){
         start++;
         end--;
     }
-        System.out.print(new String(arr));    // HSIRABAS
+    for(char ch:arr){
+        //System.out.print(new String(arr));    // HSIRABAS
+        System.out.print(ch+" ");              // H S I R A B A S
+    }
     }
 }
