@@ -13,7 +13,7 @@ public class StrTokensHR {
         String[] tokens = s.split("[ !,?._'@]+");
         System.out.println(tokens.length);
         for(String token:tokens){
-        System.out.println(token);                   // count + Divided Letters
+        System.out.println(token);                   // Length + Divided Letters
         }
         }
         scan.close();
