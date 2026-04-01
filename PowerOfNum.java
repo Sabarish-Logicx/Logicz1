@@ -6,6 +6,6 @@ public class PowerOfNum{
         for(int i=1;i<=exp;i++){
             res=res*base;
         }
-        System.out.println(+res);            //2^5=32
+        System.out.println("Result is : "+res);            //2^5=32
     }
 }
