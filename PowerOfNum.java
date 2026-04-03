@@ -13,6 +13,7 @@ public class PowerOfNum{
 
         }
 
-        System.out.println("Result is : "+res);            //2^5=32
+        System.out.println("Result : "+res);            //2^5=32
     }
 }
+
