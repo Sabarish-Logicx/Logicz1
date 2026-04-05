@@ -12,7 +12,7 @@ class PrimeNum{
                 break;
                 }
             }  }
-            System.out.println (isPrime?"Prime":"Not Prime");
+            System.out.println (isPrime?"Prime":"Not Prime");     //Prime Num Check
 }
 }
     
