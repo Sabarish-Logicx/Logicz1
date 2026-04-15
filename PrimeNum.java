@@ -2,7 +2,7 @@ import java.util.Scanner;
 class PrimeNum{
     public static void main (String []args){
         Scanner sc=new Scanner(System.in); 
-        System.out.print("Enter a Num : ");
+        System.out.print("Enter a Number : ");
         int num=sc.nextInt();
 
         //int num =17;
