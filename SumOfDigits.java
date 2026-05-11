@@ -24,7 +24,7 @@ while(num!=0){
 }
 num=sum;
 }
-System.out.print(+num);
+System.out.print(+num);               //2
 }
 }
 
